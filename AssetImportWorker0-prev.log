@@ -1,0 +1,619 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 4011 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\game_editor\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/hp/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63384
+Successfully changed project path to: C:/Users/hp/My project
+C:/Users/hp/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2180] Host "[IP] 172.16.191.92 [Port] 0 [Flags] 2 [Guid] 487107983 [EditorId] 487107983 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-64LP069) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2180] Host "[IP] 172.16.191.92 [Port] 0 [Flags] 2 [Guid] 487107983 [EditorId] 487107983 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-64LP069) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 251.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path D:/game_editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hp/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 820M (ID=0x1140)
+    Vendor:   NVIDIA
+    VRAM:     2000 MB
+    Driver:   23.21.13.8912
+Initialize mono
+Mono path[0] = 'D:/game_editor/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/game_editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/game_editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/game_editor/2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/game_editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.042400 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 182.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.822 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1823ms)
+		BeginReloadAssembly (428ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1118ms)
+			LoadAssemblies (435ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (624ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (183ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (125ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.040986 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hp\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hp\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 209.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.725 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2726ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (2247ms)
+			LoadAssemblies (255ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (450ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (137ms)
+			SetupLoadedEditorAssemblies (1191ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (210ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (661ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3748 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (86.8 KB). Loaded Objects now: 4223.
+Memory consumption went from 155.0 MB to 154.9 MB.
+Total: 5.705000 ms (FindLiveObjects: 0.557300 ms CreateObjectMapping: 0.360100 ms MarkObjects: 4.650600 ms  DeleteObjects: 0.135400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 502956.081210 seconds.
+  path: Assets/logicscrpt.cs
+  artifactKey: Guid(f4f1999717732a5438c70334f9d3ce6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/logicscrpt.cs using Guid(f4f1999717732a5438c70334f9d3ce6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71982be40277b374f990d4f6a25112fc') in 0.435361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/bullet/Effects_Fire_0_05.png
+  artifactKey: Guid(c66317fc59de846489f04fb543843c29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_05.png using Guid(c66317fc59de846489f04fb543843c29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79609a07453a0504f39a3a5b71803068') in 0.232093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/bullet/Effects_Fire_0_11.png
+  artifactKey: Guid(fbd8ecfad094f8b49aacc9730bed3f52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_11.png using Guid(fbd8ecfad094f8b49aacc9730bed3f52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '570b56dbeb7d16ee5b973c04cc451008') in 0.054572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/bullet/Effects_Fire_0_9.png
+  artifactKey: Guid(e6e25aa83d344b6429c1738f9e2262fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_9.png using Guid(e6e25aa83d344b6429c1738f9e2262fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '718c7dc29e769c9a0cc077a3abbbb4ae') in 0.062609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/bullet/Effects_Fire_0_17.png
+  artifactKey: Guid(c4bff005522e6d645b87477aae8d40c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_17.png using Guid(c4bff005522e6d645b87477aae8d40c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '114d0695154a287aa1cf6dec824ce7ea') in 0.056483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/bullet/Effects_Fire_0_09.png
+  artifactKey: Guid(6670756956a9a8d4fbb6d18ae4c18ec1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_09.png using Guid(6670756956a9a8d4fbb6d18ae4c18ec1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bdec6aeb9cbe1f1b21b0ea69c2a9017') in 0.061350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/buleet/bullet.controller
+  artifactKey: Guid(3129add519abce74f9f89284ffaa36f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/buleet/bullet.controller using Guid(3129add519abce74f9f89284ffaa36f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b24c217133c7e81ad3fe36f670df259') in 0.099601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/bullet/Effects_Fire_0_18.png
+  artifactKey: Guid(315585fe9e6f011498b40c2e81464523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_18.png using Guid(315585fe9e6f011498b40c2e81464523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3844a1903cb2f178ee4a038cd843453') in 0.065599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/bullet/Effects_Fire_0_34.png
+  artifactKey: Guid(6f5ae4ced86433e47a52d91d20a29b8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_34.png using Guid(6f5ae4ced86433e47a52d91d20a29b8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae02e5dbb51a03f4362b0b02f1ce3ebb') in 0.050246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/bullet/Effects_Fire_0_5.png
+  artifactKey: Guid(5891fe7a8497f0a4993460f4973f71e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_5.png using Guid(5891fe7a8497f0a4993460f4973f71e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc9e0e0b671d431c03858c4cdb22c3f1') in 0.068427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/bull.cs
+  artifactKey: Guid(9949e6397561cb949a54df79ce59fe7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bull.cs using Guid(9949e6397561cb949a54df79ce59fe7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a063bc206f4280d77bb356127c84aa8') in 0.054299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/bullet/Effects_Fire_0_7.png
+  artifactKey: Guid(37a5846a04358b94bb046e748b2a5ae4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_7.png using Guid(37a5846a04358b94bb046e748b2a5ae4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff628f3b563add529b33ce80f5fdc1c6') in 0.067607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/bullet/Effects_Fire_0_6.png
+  artifactKey: Guid(00dc0ccbb8cf9304984c281a2a77c022) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_6.png using Guid(00dc0ccbb8cf9304984c281a2a77c022) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5dd747109169691111a5beaf310d2df9') in 0.067699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/bullet/Effects_Fire_0_27.png
+  artifactKey: Guid(6f5592acf1fac8645a2168985b80f1e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_27.png using Guid(6f5592acf1fac8645a2168985b80f1e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3198474586416b5fd463841fa29a2806') in 0.058114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/bullet/Effects_Fire_0_29.png
+  artifactKey: Guid(2dd5e70a0172c624582158d794a46a1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_29.png using Guid(2dd5e70a0172c624582158d794a46a1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c66c3bcc0429f4784a9b1d15d22a5b86') in 0.074463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/bullet/Effects_Fire_0_03.png
+  artifactKey: Guid(adca152841e17df478331854f96ddee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_03.png using Guid(adca152841e17df478331854f96ddee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2fa77fc9d427418e58d93f301f20298') in 0.070370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/bullet/Effects_Fire_0_23.png
+  artifactKey: Guid(acc37492cf685d742a3aba21d3081cbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_23.png using Guid(acc37492cf685d742a3aba21d3081cbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e4e270d24a7be9d955e378af92cc60b') in 0.062546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/spawn.cs
+  artifactKey: Guid(7a92e56ddca10ea4490e9888d22bda7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/spawn.cs using Guid(7a92e56ddca10ea4490e9888d22bda7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '301ebd31bf1d28ee899c3a70fa98208e') in 0.028292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/bullet/Effects_Fire_0_01.png
+  artifactKey: Guid(8ebb684f34fd4564ca9d953d85bd7686) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_01.png using Guid(8ebb684f34fd4564ca9d953d85bd7686) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70bae9b06d5489c0f31f558adb1bc9e6') in 0.056334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/target_gen.cs
+  artifactKey: Guid(124228d0cd7516146aab75d42df4298d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/target_gen.cs using Guid(124228d0cd7516146aab75d42df4298d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'baaed56911d18240f0f97e5c9d145c20') in 0.026156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/bullet/Effects_Fire_0_22.png
+  artifactKey: Guid(a0c7450f80b8ffc4f8cc3187b5132e1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_22.png using Guid(a0c7450f80b8ffc4f8cc3187b5132e1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34e42e2f540ccae389624000b82e5288') in 0.076189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/invisible_box.cs
+  artifactKey: Guid(3868764b63b1ca24a8228f5eb36d0006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/invisible_box.cs using Guid(3868764b63b1ca24a8228f5eb36d0006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a16de31961412fd76c74638a4ad8df31') in 0.027424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/bullet/Effects_Fire_0_06.png
+  artifactKey: Guid(69488ee000c78fc4b8d949258f781b3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_06.png using Guid(69488ee000c78fc4b8d949258f781b3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57586fd3e65d84547c9f09ed4eebc9a3') in 0.065801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/bullet/Effects_Fire_0_13.png
+  artifactKey: Guid(7d96fc4cbfca67f4e8e24abb5593f9dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_13.png using Guid(7d96fc4cbfca67f4e8e24abb5593f9dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '051d301562d04c5585527564fd11918f') in 0.065401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/gok.cs
+  artifactKey: Guid(f961388847105c743bf2fc3df3d3a118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/gok.cs using Guid(f961388847105c743bf2fc3df3d3a118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3cbb89be1c1b6861bec7414247032346') in 0.057294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/bullet/Effects_Fire_0_14.png
+  artifactKey: Guid(277f8a4228019594ba6c9ef19a0a8aec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_14.png using Guid(277f8a4228019594ba6c9ef19a0a8aec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a182bab1f5bb0d4c40250cb128e7187') in 0.071260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/bullet/Effects_Fire_0_16.png
+  artifactKey: Guid(fd1ffb5f7da93e641889a027f9c34c5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_16.png using Guid(fd1ffb5f7da93e641889a027f9c34c5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce80dca46eb077ea49d461760671c769') in 0.065149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/bullet/Effects_Fire_0_08.png
+  artifactKey: Guid(2d10c2214e911f34fa1685187d29b0bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_08.png using Guid(2d10c2214e911f34fa1685187d29b0bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e7129e263a1a29d81e93c06f950b40b') in 0.057933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/bullet/Effects_Fire_0_8.png
+  artifactKey: Guid(c890583edc124914fbbc364416b13c6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_8.png using Guid(c890583edc124914fbbc364416b13c6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca4d5a8ce677526635a715af6738624c') in 0.061071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/bullett.anim
+  artifactKey: Guid(59cc820f2bdbfc3469eb0a037bd178a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullett.anim using Guid(59cc820f2bdbfc3469eb0a037bd178a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54bf79b83b706e93f80ec8bd896edf87') in 0.087292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/bullet/Effects_Fire_0_31.png
+  artifactKey: Guid(312c838afcb2f5b41834797f8c7aa496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_31.png using Guid(312c838afcb2f5b41834797f8c7aa496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1fead4003d196267106fc0cdefb9e2d2') in 0.052294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/bullet/Effects_Fire_0_35.png
+  artifactKey: Guid(7468b725ca4b83e4eb045d36a859bcc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_35.png using Guid(7468b725ca4b83e4eb045d36a859bcc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41d7caeb0a6921cbfae1e7061c97f87e') in 0.058960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/buleet/New Animation.anim
+  artifactKey: Guid(96d7f4e0ad8029c47a8d7cc870f912b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/buleet/New Animation.anim using Guid(96d7f4e0ad8029c47a8d7cc870f912b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ef57a3a3658c9d11a9e1f314fc7ec83') in 0.045730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/bullet/Effects_Fire_0_25.png
+  artifactKey: Guid(95fdd3fc833c88b4f97c24a87cd3a5e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_25.png using Guid(95fdd3fc833c88b4f97c24a87cd3a5e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd878c15fd9c2b33f627efcd5ccd79f99') in 0.098062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4b4235e5f39d17f366fdf7104a1d7dd') in 0.044126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/bullet/Effects_Fire_0_04.png
+  artifactKey: Guid(a555ae518403f3845ba8367fdc3ba407) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_04.png using Guid(a555ae518403f3845ba8367fdc3ba407) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74c6d2c277a58f50aa1a9763446a4ea0') in 0.067476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/bullet/Effects_Fire_0_19.png
+  artifactKey: Guid(fefef5357aa868f4e889dd9e51f5c4a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_19.png using Guid(fefef5357aa868f4e889dd9e51f5c4a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4082cbde83dc7d4125f307c8f4eda90e') in 0.086350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/bullet/Effects_Fire_0_21.png
+  artifactKey: Guid(c2341b77c9c5e7d46b7ea48d0670cecb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_21.png using Guid(c2341b77c9c5e7d46b7ea48d0670cecb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28b26b99008d571ef455fe57d2ead775') in 0.076478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/bullet/Effects_Fire_0_26.png
+  artifactKey: Guid(6835b647806c48948996c6cba7f9d4e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_26.png using Guid(6835b647806c48948996c6cba7f9d4e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc1c60a139c4ea425636c2f792574132') in 0.068562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/bullet.controller
+  artifactKey: Guid(474153086a390ec49a51a47eb59cd939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet.controller using Guid(474153086a390ec49a51a47eb59cd939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e9a8468d185f39fd0fa1afc884f5d82') in 0.021862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/bullet/Effects_Fire_0_20.png
+  artifactKey: Guid(78dbe66fd04da3c44a33e67e6f958fbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_20.png using Guid(78dbe66fd04da3c44a33e67e6f958fbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bce9378b30c181302af50a1535044c23') in 0.066908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/bullet/Effects_Fire_0_10.png
+  artifactKey: Guid(bbb9c309c3b839c4bb78da704bb84639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_10.png using Guid(bbb9c309c3b839c4bb78da704bb84639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f8aab177e229da15d0fbe8103944e3b') in 0.074755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/invi.cs
+  artifactKey: Guid(8239287c76637ed41b389a3d61258b31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/invi.cs using Guid(8239287c76637ed41b389a3d61258b31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4bb91820cf4f0182e9986c872b02741') in 0.035509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/bullet/Effects_Fire_0_30.png
+  artifactKey: Guid(bfbcbc24c50d2c04698cdffce7e98b67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_30.png using Guid(bfbcbc24c50d2c04698cdffce7e98b67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '187a8260602eb16172b19b77bfef1ffd') in 0.055508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/bullet/Effects_Fire_0_12.png
+  artifactKey: Guid(dac72cd9b81cb79479819e9404b79329) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_12.png using Guid(dac72cd9b81cb79479819e9404b79329) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3289ff2ee17a7d7b5b16027a17bbfcd8') in 0.065998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/bullet/Effects_Fire_0_32.png
+  artifactKey: Guid(4b49dc4e2b81ecd4181130f1a425a462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_32.png using Guid(4b49dc4e2b81ecd4181130f1a425a462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9480e9cac66ce575b80c83eff92054fe') in 0.070754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LogicScript.cs
+  artifactKey: Guid(94085f04db0292b41900652a1b45f561) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LogicScript.cs using Guid(94085f04db0292b41900652a1b45f561) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a03550197f263dd2d3b998d7027b8c8') in 0.030301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/bullet/Effects_Fire_0_24.png
+  artifactKey: Guid(b6fa84cba032063429b18440a209d26c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_24.png using Guid(b6fa84cba032063429b18440a209d26c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc6c601dc494f3bee4ae35523f01a8bc') in 0.086779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/bullet/Effects_Fire_0_02.png
+  artifactKey: Guid(9f720f199e750f547ae36306370a902f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_02.png using Guid(9f720f199e750f547ae36306370a902f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3768166fde70256524d33e0a14e1ca65') in 0.063094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/bullet/Effects_Fire_0_33.png
+  artifactKey: Guid(278a139bbc2fa524da0098735df5debe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_33.png using Guid(278a139bbc2fa524da0098735df5debe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d461a3c9dc87a61abb34cc7a37c7232') in 0.066628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/buleet
+  artifactKey: Guid(23d4af2ff8ce0ac4c9dd43a7a21062b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/buleet using Guid(23d4af2ff8ce0ac4c9dd43a7a21062b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '313a385bd883fb30379fac1e06b0f755') in 0.025358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/bullet/Effects_Fire_0_15.png
+  artifactKey: Guid(22f2271e57aae9d4bab3ac785e850423) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_15.png using Guid(22f2271e57aae9d4bab3ac785e850423) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56bad3e55f87b1dac1fbcc2dd74e70a2') in 0.089800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b497c347afb656a1ce8824f70ca409') in 0.015408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/bullet/Effects_Fire_0_07.png
+  artifactKey: Guid(21b5d6eb152d1694988114171b879b40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_07.png using Guid(21b5d6eb152d1694988114171b879b40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58436269f2dc3b840ac5e4c4770f9d77') in 0.073842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/bullet/Effects_Fire_0_28.png
+  artifactKey: Guid(ec45ac2258bae0a4b890c43567a79739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet/Effects_Fire_0_28.png using Guid(ec45ac2258bae0a4b890c43567a79739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81739237cb1a40f526c74cdde99d6f07') in 0.053155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/bullet.prefab
+  artifactKey: Guid(1b9d215366cd0bf438a26551ec053d0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet.prefab using Guid(1b9d215366cd0bf438a26551ec053d0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b23ed8bf0a9c3aa70335bbd605a507a') in 0.177159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/explosion
+  artifactKey: Guid(cab36f4db3da84d4fb866e73f323236a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/explosion using Guid(cab36f4db3da84d4fb866e73f323236a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72866c8d12a345acf9d95a4e77af65c5') in 0.030428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/bullet
+  artifactKey: Guid(1dbf6cf11a303714489cdd2109b021e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet using Guid(1dbf6cf11a303714489cdd2109b021e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '689036964bd815b350d2892a8ecb6e20') in 0.024422 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 37.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (76.3 KB). Loaded Objects now: 4223.
+Memory consumption went from 79.6 MB to 79.5 MB.
+Total: 9.935200 ms (FindLiveObjects: 0.658900 ms CreateObjectMapping: 0.339800 ms MarkObjects: 8.801900 ms  DeleteObjects: 0.132000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 725.069111 seconds.
+  path: Assets/buleet/New Animation.anim
+  artifactKey: Guid(96d7f4e0ad8029c47a8d7cc870f912b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/buleet/New Animation.anim using Guid(96d7f4e0ad8029c47a8d7cc870f912b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae28b2eb1e3e0a6bf4987fd555fa0ca5') in 0.053078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/buleet/bullet.controller
+  artifactKey: Guid(3129add519abce74f9f89284ffaa36f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/buleet/bullet.controller using Guid(3129add519abce74f9f89284ffaa36f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5ce8c677f80b05621ec3e396257b975') in 0.022071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/bullet.controller
+  artifactKey: Guid(474153086a390ec49a51a47eb59cd939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet.controller using Guid(474153086a390ec49a51a47eb59cd939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ce534814365c154c80e6bca7e3c5eaf') in 0.029281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/bullet.prefab
+  artifactKey: Guid(1b9d215366cd0bf438a26551ec053d0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bullet.prefab using Guid(1b9d215366cd0bf438a26551ec053d0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '447a0e47fba407d3c9d1476ddab59665') in 0.050795 seconds 
