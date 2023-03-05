@@ -25,11 +25,11 @@ Contact :<br/>
 If you have any questions or suggestions, please feel free to contact us at sharsha307@gmail.com. We are always happy to hear from our players and improve the game based on their feedback.
 
 # Timeline 
-What was the initial stage of the project ?
+What was the initial stage of the project ? <br>
 This Project was inspired by a friend who was struggling with learning foriegn languages and we thought we should think of a way to make it more fun and interesting. 
-What stage is it in now?
+<br>What stage is it in now?<br>
 It is at an intial stage. We believe it can be developed further with more languages, more engaging gameplay, better graphics and more theemes. 
-How did we get there?
+<br>How did we get there?<br>
 My Collaborators Learnt Unity and Python. We also made the voice lines oursevles. 
-What is working/not working?
+<br>What is working/not working?<br>
 The Game is perfoming it's basic functions but we believe that it can evovle into a more powerful game. 
