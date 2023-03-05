@@ -1,3 +1,9 @@
+# Demo Videos 
+
+Python - https://drive.google.com/file/d/1AOJc5ov5UNBTBVDaNeGqTN0xWpBOlwrT/view?usp=sharing
+Unity_1 - https://drive.google.com/file/d/1EQqsI8oXnUULJorIXFwpIZKy_u4B3iCr/view?usp=sharing
+Unity_2 - https://drive.google.com/file/d/1ctm48wisturm6Qam1if3PBLi7Nrrsobb/view?usp=sharing
+
 # Shooting-Words
 
 Learning Languages is hard and boring. Most Modern Solutions to be the problem are quiz apps and space repetition software which in the experience and journey of language learning turn out to be ineffective. Therefore, we made an educational game designed to help you learn new languages in a fun and engaging way. This game is suitable for a beginner who wants to learn a new language. There are three game made in this repository, a python game made using pygame and two unity games which all are free and open-source to be edited and modified according to a person's needs. 
