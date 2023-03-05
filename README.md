@@ -26,3 +26,10 @@ If you have any questions or suggestions, please feel free to contact us at shar
 
 # Timeline 
 What was the initial stage of the project ?
+This Project was inspired by a friend who was struggling with learning foriegn languages and we thought we should think of a way to make it more fun and interesting. 
+What stage is it in now?
+It is at an intial stage. We believe it can be developed further with more languages, more engaging gameplay, better graphics and more theemes. 
+How did we get there?
+My Collaborators Learnt Unity and Python. We also made the voice lines oursevles. 
+What is working/not working?
+The Game is perfoming it's basic functions but we believe that it can evovle into a more powerful game. 
