@@ -1,3 +1,6 @@
+[HarshaS.pdf](https://github.com/harsha-art/Shooting-Words/files/11484851/HarshaS.pdf)
+
+
 # Demo Videos 
 
 Python - https://drive.google.com/file/d/1AOJc5ov5UNBTBVDaNeGqTN0xWpBOlwrT/view?usp=sharing <br>
