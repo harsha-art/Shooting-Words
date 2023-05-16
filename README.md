@@ -1,4 +1,3 @@
-[HarshaS.pdf](https://github.com/harsha-art/Shooting-Words/files/11484851/HarshaS.pdf)
 ![HarshaS-1](https://github.com/harsha-art/Shooting-Words/assets/67546267/cff6723c-47db-46c3-8c33-c19f3355a948)
 
 
